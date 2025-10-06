@@ -1,3 +1,13 @@
+title: Numberplatedetector
+emoji: 🐨
+colorFrom: gray
+colorTo: gray
+sdk: gradio
+sdk_version: 5.49.0
+app_file: app.py
+pinned: false
+
+
 # 🚗 License Plate Detector (YOLOv8 + OCR)
 
 This is a Gradio web app for detecting license plates in **images and videos** using a YOLOv8 model, with optional OCR (EasyOCR) to read text from plates.
