@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://shivsunder0006:$HF_TOKEN@huggingface.co/spaces/shivsunder0006/numberplatedetector main
+        run: git push --force https://shivsunder0006:$HF_TOKEN@huggingface.co/spaces/shivsunder0006/numberplatedetector main
