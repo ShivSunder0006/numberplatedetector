@@ -1,0 +1,12 @@
+# If you add the Kaggle dataset "large-license-plate-dataset" as a dataset input,
+# it will be mounted at /kaggle/input/large-license-plate-dataset
+# It already has YOLO-style images/ and labels/ splits.
+
+path: /kaggle/input/large-license-plate-dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Single class
+names:
+  0: license_plate

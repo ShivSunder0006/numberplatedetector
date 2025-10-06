@@ -1,0 +1,9 @@
+ultralytics>=8.3.0
+opencv-python
+numpy
+pillow
+gradio
+# optional OCR support (uncomment if you want OCR):
+easyocr
+opencv-python 
+torch
